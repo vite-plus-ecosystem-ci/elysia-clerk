@@ -1,0 +1,29 @@
+bun.lock
+  s_020e0925536890::t_2762c747956429 18-19,27,254,256,258,260,262,264,266,268,270,674,676
+package.json
+  s_f5b0db60a96d7f::t_82dee804341af5 64-65,71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "614e7feec7c6c6e926fe54884e3805b319f4c3a4",
+  "prompts": {},
+  "sessions": {
+    "s_020e0925536890": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_073404ba0ffeYB4IX1qsUk75Y5",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "wan9chi <dk4rest@gmail.com>"
+    },
+    "s_f5b0db60a96d7f": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_073404a05ffehcUre510HiUR6f",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "wan9chi <dk4rest@gmail.com>"
+    }
+  }
+}
