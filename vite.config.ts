@@ -9,8 +9,9 @@ export default defineConfig({
     PACKAGE_NAME: JSON.stringify(pkg.name),
     PACKAGE_VERSION: JSON.stringify(pkg.version),
   },
-  test: {},
+  test: { clearMocks: false },
   pack: {
+    deps: { resolveDepSubpath: true },
     entry: ['src/index.ts', 'src/webhooks.ts'],
     platform: 'neutral',
     define: {
