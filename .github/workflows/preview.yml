@@ -12,7 +12,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: voidzero-dev/setup-vp@v1
+      - uses: voidzero-dev/setup-vp@v1.20.0
         with:
           node-version: '24'
           cache: true
@@ -23,6 +23,7 @@ jobs:
       - name: Build
         run: vp pack
 
-      - name: Create a snapshot version
+      - if: ${{ github.repository_owner != 'vite-plus-ecosystem-ci' }}
+        name: Create a snapshot version
         id: snapshot
         run: vp dlx pkg-pr-new publish --compact

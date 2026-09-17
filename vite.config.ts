@@ -11,6 +11,7 @@ export default defineConfig({
   },
   test: {},
   pack: {
+    deps: { resolveDepSubpath: true },
     entry: ['src/index.ts', 'src/webhooks.ts'],
     platform: 'neutral',
     define: {
