@@ -61,14 +61,14 @@
     "@elysiajs/html": "^1.4.0",
     "elysia": "^1.4.28",
     "typescript": "6.0.2",
-    "vite": "npm:@voidzero-dev/vite-plus-core@1.4.0",
-    "vite-plus": "1.4.0"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be",
+    "vite-plus": "0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be"
   },
   "peerDependencies": {
     "elysia": "^1.4.0"
   },
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@1.4.0"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be"
   },
   "packageManager": "bun@1.3.11"
 }
